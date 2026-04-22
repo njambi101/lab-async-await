@@ -1,8 +1,13 @@
-//const inputelm = document.getElementById('title1')
-//const infotext = document.getElementById('bodypost')
 const newdiv =document.createElement('title1');
 const newdiv2 = document.createElement('bodypost')
 
+
+const inputelm = document.getElementById('title1')
+const infotext = document.getElementById('bodypost')
+
+
+const NewDeve = document.getElementById("post-list");
+container.append(NewDeve);
 
 
 async function fetchApi(word){
